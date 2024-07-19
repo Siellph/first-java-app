@@ -8,7 +8,7 @@ public class Main {
     private static String username;
 
     public static void main(String[] args) {
-        JFrame frame = new JFrame("Hello World");
+        JFrame frame = new JFrame("Random Dice");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(600, 400);
 
@@ -21,9 +21,6 @@ public class Main {
 
         frame.add(scrollPane, BorderLayout.CENTER);
         frame.add(buttonPanel, BorderLayout.SOUTH);
-
-        JLabel label = new JLabel("Hello World");
-        frame.add(label, BorderLayout.NORTH);
 
         frame.setVisible(true);
 
